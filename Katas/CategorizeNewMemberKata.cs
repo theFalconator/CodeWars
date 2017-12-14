@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Katas
 {
@@ -6,21 +7,7 @@ namespace Katas
     {
         public static IEnumerable<string> OpenOrSenior(int[][] data)
         {
-            var result = new List<string>();
-            foreach (var row in data)
-            {
-                var age = row[0];
-                var handicap = row[1];
-
-                if (age >= 55 && handicap > 7)
-                    result.Add("Senior");
-                else
-                {
-                    result.Add("Open");
-                }
-            }
-
-            return result;
+            return data.Select(member => member[0] >= 55 && member[1] > 7 ? "Senior" : "Open").ToList();
         }
     }
 }
