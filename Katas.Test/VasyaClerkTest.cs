@@ -1,5 +1,4 @@
-﻿using System.Linq.Expressions;
-using Xunit;
+﻿using Xunit;
 using static Katas.VasyaClerkKata;
 
 namespace Katas.Test
