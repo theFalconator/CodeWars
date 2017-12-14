@@ -1,0 +1,6 @@
+C:\Users\falco\RiderProjects\CodeWars\Katas\bin\Debug\Katas.dll
+C:\Users\falco\RiderProjects\CodeWars\Katas\bin\Debug\Katas.pdb
+C:\Users\falco\RiderProjects\CodeWars\Katas\obj\Debug\Katas.csprojResolveAssemblyReference.cache
+C:\Users\falco\RiderProjects\CodeWars\Katas\obj\Debug\Katas.csproj.CoreCompileInputs.cache
+C:\Users\falco\RiderProjects\CodeWars\Katas\obj\Debug\Katas.dll
+C:\Users\falco\RiderProjects\CodeWars\Katas\obj\Debug\Katas.pdb
