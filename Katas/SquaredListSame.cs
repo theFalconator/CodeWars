@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 
 namespace Katas
 {
@@ -6,10 +7,13 @@ namespace Katas
     {
         public static bool comp(int[] a, int[] b)
         {
-            if (a == null || b == null || a.Length < 1 || b.Length < 1)
+            if (a == null || b == null)
                 return false;
 
-            return a.All(element => b.Contains(element * element));
+            var sA = a.Select(i => i * i).OrderBy(i => i).ToList();
+            var sB = b.OrderBy(i => i).ToList();
+            return sA.SequenceEqual(sB);
+            // return a.All(element => b.Contains(element * element));
         }
     }
 }
