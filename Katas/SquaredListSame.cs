@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 
 namespace Katas
 {
@@ -13,7 +12,6 @@ namespace Katas
             var sA = a.Select(i => i * i).OrderBy(i => i).ToList();
             var sB = b.OrderBy(i => i).ToList();
             return sA.SequenceEqual(sB);
-            // return a.All(element => b.Contains(element * element));
         }
     }
 }

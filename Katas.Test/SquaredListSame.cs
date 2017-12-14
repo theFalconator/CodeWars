@@ -23,8 +23,8 @@ namespace Katas.Test
         [Fact]
         public void FalseCase()
         {
-            var a = new int[] {122, 144, 19, 161, 19, 144, 19, 11};
-            var b = new int[] {121, 14641, 20736, 361, 25921, 361, 20736, 361};
+            var a = new[] {122, 144, 19, 161, 19, 144, 19, 11};
+            var b = new[] {121, 14641, 20736, 361, 25921, 361, 20736, 361};
             Assert.False(comp(a, b));
         }
 
