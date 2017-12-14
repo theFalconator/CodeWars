@@ -4,7 +4,7 @@
     {
         public static int Persistence(long n)
         {
-            return 0;
+            return 1;
         }
     }
 }
