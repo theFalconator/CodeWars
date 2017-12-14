@@ -12,7 +12,6 @@ namespace Katas.Test
             Assert.Equal(0, Persistence(4));
             Assert.Equal(2, Persistence(25));
             Assert.Equal(4, Persistence(999));
-        
         }
     }
 }
