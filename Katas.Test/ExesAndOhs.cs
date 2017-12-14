@@ -1,5 +1,4 @@
-﻿using System.Diagnostics;
-using Xunit;
+﻿using Xunit;
 using static Katas.ExesAndOhs;
 
 namespace Katas.Test
@@ -9,6 +8,8 @@ namespace Katas.Test
         [Fact]
         public void ExampleTests()
         {
+            var a = new[] {1, 2, 3};
+            
             
             Assert.Equal(true, XO("xo"));
             Assert.Equal(true, XO("xxOo"));
