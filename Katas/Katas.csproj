@@ -43,6 +43,7 @@
         <Compile Include="ExesAndOhs.cs"/>
         <Compile Include="FindTheOddInt.cs"/>
         <Compile Include="FriendOrFoeKata.cs"/>
+        <Compile Include="PersistentBugger.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="ShortestWordKata.cs"/>
         <Compile Include="SquaredListSame.cs"/>
@@ -50,10 +51,10 @@
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-                     Other similar extension points exist, see Microsoft.Common.targets.
-                <Target Name="BeforeBuild">
-                </Target>
-                <Target Name="AfterBuild">
-                </Target>
-                -->
+                       Other similar extension points exist, see Microsoft.Common.targets.
+                  <Target Name="BeforeBuild">
+                  </Target>
+                  <Target Name="AfterBuild">
+                  </Target>
+                  -->
 </Project>
