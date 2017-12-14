@@ -7,7 +7,7 @@ namespace Katas
     {
         public static IEnumerable<string> FriendOrFoe(string[] names)
         {
-            return names.ToList().Where(name => name.Length == 4);
+            return names.Where(name => name.Length == 4);
         }
     }
 }
