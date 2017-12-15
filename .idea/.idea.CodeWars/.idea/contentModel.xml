@@ -5,6 +5,7 @@
     <e p="C:\Users\falco\RiderProjects\CodeWars" t="IncludeFlat">
       <e p="CodeWars.sln" t="IncludeFlat" />
       <e p="Katas" t="IncludeRecursive">
+        <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberKata.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
@@ -22,6 +23,7 @@
         <e p="VasyaClerkKata.cs" t="Include" />
       </e>
       <e p="Katas.Test" t="IncludeRecursive">
+        <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberTest.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
