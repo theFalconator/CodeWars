@@ -15,17 +15,16 @@ namespace Katas
                 {
                     result[c]++;
                 }
-                    
+
                 else
                 {
-                    result.Add(c, 1);                    
+                    result.Add(c, 1);
                 }
-                
             }
 
             return result;
         }
-        
+
         public static List<string> Anagrams(string word, List<string> words)
         {
             var d = CharFrequency(word);
