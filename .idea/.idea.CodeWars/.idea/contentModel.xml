@@ -8,6 +8,7 @@
         <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberKata.cs" t="Include" />
+        <e p="Eureka.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />
         <e p="FriendOrFoeKata.cs" t="Include" />
@@ -20,12 +21,14 @@
         </e>
         <e p="ShortestWordKata.cs" t="Include" />
         <e p="SquaredListSame.cs" t="Include" />
+        <e p="Supermarket.cs" t="Include" />
         <e p="VasyaClerkKata.cs" t="Include" />
       </e>
       <e p="Katas.Test" t="IncludeRecursive">
         <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberTest.cs" t="Include" />
+        <e p="Eureka.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />
         <e p="FriendOrFoeTest.cs" t="Include" />
@@ -38,6 +41,7 @@
         </e>
         <e p="ShortestWordTest.cs" t="Include" />
         <e p="SquaredListSame.cs" t="Include" />
+        <e p="Supermarket.cs" t="Include" />
         <e p="VasyaClerkTest.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
