@@ -10,16 +10,14 @@ namespace Katas
             
             if (n == 1)
                 return customers.Sum();
-            else
-            {
-                var i = 0;
+            
+            var i = 0;
 
-                while (i < customers.Length)
-                {
-                    var times = customers.Skip(i).Take(n).ToArray();
-                    i += n;
-                    elapsedTime += times.Max();
-                }
+            while (i < customers.Length)
+            {
+                var times = customers.Skip(i).Take(n).ToArray();
+                i += n;
+                elapsedTime += times.Max();
             }
 
             return elapsedTime;
