@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace Katas
 {
@@ -15,7 +16,9 @@ namespace Katas
 
             while (i < customers.Length)
             {
-                var times = customers.Skip(i).Take(n).ToArray();
+                IEnumerable<int> times = i+n-1 > customers.Length 
+                    ? customers.Skip(i).Take(customers.Length).ToArray() 
+                    : customers.Skip(i).Take(n-1).ToArray();
                 i += n;
                 elapsedTime += times.Max();
             }
