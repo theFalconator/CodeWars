@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Katas
@@ -7,23 +8,26 @@ namespace Katas
     {
         public static long QueueTime(int[] customers, int n)
         {
-            var elapsedTime = 0;
-            
             if (n == 1)
                 return customers.Sum();
-            
-            var i = 0;
 
-            while (i < customers.Length)
+            if (n > customers.Length)
+                return customers.Max();
+            
+            var q = new Queue<int>(customers);
+            var times = new int[n];
+            for (var i = 0; i < n-1; i++)
             {
-                IEnumerable<int> times = i+n-1 > customers.Length 
-                    ? customers.Skip(i).Take(customers.Length).ToArray() 
-                    : customers.Skip(i).Take(n-1).ToArray();
-                i += n;
-                elapsedTime += times.Max();
+                times[i] = 0;
             }
 
-            return elapsedTime;
+            while (q.Count > 0)
+            {
+                var minIndex = Array.IndexOf(times, times.Min());
+                times[minIndex] += q.Dequeue();
+            }
+
+            return times.Max();
         }
     }
 }
