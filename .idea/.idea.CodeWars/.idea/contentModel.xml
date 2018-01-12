@@ -8,6 +8,7 @@
         <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberKata.cs" t="Include" />
+        <e p="DuplicateEncoder.cs" t="Include" />
         <e p="Eureka.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />
@@ -28,6 +29,7 @@
         <e p="Anagram.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="CategorizeNewMemberTest.cs" t="Include" />
+        <e p="DuplicateEncoder.cs" t="Include" />
         <e p="Eureka.cs" t="Include" />
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />

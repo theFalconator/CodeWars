@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Katas
 {
-    public class Supermarket
+    public static class Supermarket
     {
         public static long QueueTime(int[] customers, int n)
         {
