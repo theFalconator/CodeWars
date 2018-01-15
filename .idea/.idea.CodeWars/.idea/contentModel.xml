@@ -13,6 +13,7 @@
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />
         <e p="FriendOrFoeKata.cs" t="Include" />
+        <e p="Greed.cs" t="Include" />
         <e p="Katas.csproj" t="IncludeRecursive" />
         <e p="LengthOfMissingArray.cs" t="Include" />
         <e p="Multiples.cs" t="Include" />
@@ -21,6 +22,7 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="ReversedWords.cs" t="Include" />
         <e p="ShortestWordKata.cs" t="Include" />
         <e p="SquaredListSame.cs" t="Include" />
         <e p="Supermarket.cs" t="Include" />
@@ -35,6 +37,7 @@
         <e p="ExesAndOhs.cs" t="Include" />
         <e p="FindTheOddInt.cs" t="Include" />
         <e p="FriendOrFoeTest.cs" t="Include" />
+        <e p="Greed.cs" t="Include" />
         <e p="Katas.Test.csproj" t="IncludeRecursive" />
         <e p="LengthOfMissingArray.cs" t="Include" />
         <e p="Multiples.cs" t="Include" />
@@ -43,6 +46,7 @@
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
+        <e p="ReversedWords.cs" t="Include" />
         <e p="ShortestWordTest.cs" t="Include" />
         <e p="SquaredListSame.cs" t="Include" />
         <e p="Supermarket.cs" t="Include" />
