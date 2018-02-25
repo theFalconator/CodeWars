@@ -68,6 +68,7 @@
         <Compile Include="SquaredListSame.cs"/>
         <Compile Include="Supermarket.cs"/>
         <Compile Include="VasyaClerkTest.cs"/>
+        <Compile Include="WeightSortTests.cs"/>
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Katas\Katas.csproj">
@@ -77,10 +78,10 @@
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-                                   Other similar extension points exist, see Microsoft.Common.targets.
-                              <Target Name="BeforeBuild">
-                              </Target>
-                              <Target Name="AfterBuild">
-                              </Target>
-                              -->
+                                     Other similar extension points exist, see Microsoft.Common.targets.
+                                <Target Name="BeforeBuild">
+                                </Target>
+                                <Target Name="AfterBuild">
+                                </Target>
+                                -->
 </Project>
